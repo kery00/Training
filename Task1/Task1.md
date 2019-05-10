@@ -12,6 +12,7 @@ Skills to be used:
 * Windows Command Line
 	
 ### Task 1.1 ###
+Connect to GitHub and perform a pull request.
 Covers a few steps that you may just be getting familiar with so I will go a little more in-depth.
 * Hit Windows Key + R
   * This should open the run window
