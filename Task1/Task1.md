@@ -42,7 +42,7 @@ Create a Java application that adds 2 integers and converts the integers and res
 * Requirements:
   * Takes integers between 0 and 5.
   * Adds the two integers.
-  * Print a eqation to screen along with results.
+  * Print a equation to screen along with results.
     * Example 1 would be One, 2 would be Two.
 * When done meeting requirements Commit that source to Github under Task 1 Folder.
   * Command Prompt: git commit -a -m "Task 1.2 Complete"
