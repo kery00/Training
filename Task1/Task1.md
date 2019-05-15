@@ -37,25 +37,18 @@ Covers a few steps that you may just be getting familiar with so I will go a lit
 * Open Task1.md and continue to Task 1.2
   * Command Prompt: notepad.exe Task1.md
 ### Task 1.2 ###
-Create a Java application that converts integers to string representations. Call it IntToString
+Create a Java application that adds 2 integers and converts the integers and result to string representation. Call it IntToString
 * Create a new Java file in the Task 1 folder
 * Requirements:
-  * Set a variable with an integer between 0 and 5.
-  * Print a String to the console that displays the stirng(written) number for that integer.
+  * Takes integers between 0 and 5.
+  * Adds the two integers.
+  * Print a eqation to screen along with results.
     * Example 1 would be One, 2 would be Two.
 * When done meeting requirements Commit that source to Github under Task 1 Folder.
   * Command Prompt: git commit -a -m "Task 1.2 Complete"
   * Command Prompt: git push
 
 ### Task 1.3 ###
-Modify IntToString to take input from user executing application.
-* Requirements:
-  * Change the application from 1.1 to take the input from the user (System.in)
-* Commit change to source control.
-  * Command Prompt: git commit -a -m "Task 1.3 Complete"
-  * Command Prompt: git push
-
-### Task 1.4 ###
 Modify IntToString to handle values outside of specified Range
 * Requirements:
   * Handle numbers that are not in the range by printing a Friendly Message. 
