@@ -22,6 +22,7 @@ A school has following rules for grading system:
 * d. 50 to 60 - C
 * e. 60 to 80 - B
 * f. Above 80 - A
+
 Ask user to enter marks and print the corresponding grade.
 
 ### Task 1.3 ###
