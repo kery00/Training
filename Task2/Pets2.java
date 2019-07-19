@@ -4,50 +4,35 @@ import java.util.Scanner;
 public class Pets2
 {
     //initalizing variables
-    String UserInputPet = null;
+    String PetType = null;
     String ExteriorCoat = null; 
     String Mood = null;
     String Food = null;
-    
+    String State = null;
     
     Scanner pets = new Scanner(System.in);
     
-    //getting information on what pet user wants to know about
-    public String WhatTypeOfPet()
+    //not messing with constructor right now will come back to it later
+    public Pets2()
     {
+        Mood = "happy";
+        State ="alive";
+    }
+    //getting information on what pet user wants to know about
+    public void describeYourself()
+    {
+       //Using user input to set the UserInputPet variable. Later we will change this to set the UserInputPet variable via the constructor of the derived object
        //System.out.println ("What type of pet do you want more information on? ");
-       UserInputPet = pets.nextLine();    
-       
+       //UserInputPet = pets.nextLine();    
+      System.out.println("My new pet type is: "+PetType);
+      System.out.println("My pet's mood is : "+Mood);
+      System.out.println("My pet is : "+State);
         
-       return ("The animal you want more information on is: "+UserInputPet);
+      
     }
     
     
     
 }
 
-class PetDog extends Pets2
-{
-    String UserInputPet = "dog";
 
-    
-    public String ExteriorCoat()
-    {   
-        if (UserInputPet.equals("dog"))
-        {
-            return ("Dogs have long to medium length soft fur.");
-            
-        
-        }
-        
-        else
-        {
-            return ("I'm sorry I don't know much about that animal.");
-            
-        }    
-    }
-
-    
-    
-    
-}  
